@@ -1,11 +1,22 @@
   body {
       font-family: "Merriweather", serif;
       color: black;
-      max-width: 500px;
+      width: 600px;
+      height: 900px;
       margin: 25px;
       padding: 20px;
       background-color:white;
       background-size: cover;
+          
+    }
+     .weather-app {
+      border: solid 1px red;
+      padding: 25px;
+      border-radius: 10px;
+      background-color: beige;
+    }
+    .weather-app-container {
+        
     }
     
     .current-temperature {
@@ -78,9 +89,5 @@
       background-color: white;
     }
     
-    .weather-app {
-      border: solid 1px red;
-      padding: 25px;
-      border-radius: 10px;
-      background-color: beige;
-    }
+   
+
