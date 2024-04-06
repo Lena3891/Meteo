@@ -1,0 +1,86 @@
+  body {
+      font-family: "Merriweather", serif;
+      color: black;
+      max-width: 500px;
+      margin: 25px;
+      padding: 20px;
+      background-color:white;
+      background-size: cover;
+    }
+    
+    .current-temperature {
+      font-size: 40px;
+      text-decoration: solid;
+      font-weight: 400;
+    }
+    
+    .current-weather {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .current-weather h1 {
+      font-size: 40px;
+      font-weight: 400;
+    }
+    
+    .current-weather p {
+      line-height: 20px;
+      font-weight: 250;
+      font-size: 16px;
+    }
+    
+    .current-weather strong {
+      color: red;
+    }
+    
+    footer {
+      padding: 0 auto;
+      font-weight: 300;
+      font-size: 13px;
+      color: black;
+      opacity: 0.6;
+    }
+    
+    footer a {
+      color: red;
+      font-style: normal;
+    }
+   
+    form {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+    
+    .search-button {
+      background-color: red;
+      color: white;
+      border-radius: 10px;
+      font-size: 16px;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      font-family: "Merriweather", serif;
+    }
+    
+    .search-field {
+      padding: 5px 10px;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid red;
+      font-size: 16px;
+      box-sizing: border-box;
+      width: 100%;
+      margin-right: 5px;
+      font-family: "Merriweather", serif;
+      background-color: white;
+    }
+    
+    .weather-app {
+      border: solid 1px red;
+      padding: 25px;
+      border-radius: 10px;
+      background-color: beige;
+    }
