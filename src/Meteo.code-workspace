@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../Week7/Meteo"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Meteo"
+  }
+}
